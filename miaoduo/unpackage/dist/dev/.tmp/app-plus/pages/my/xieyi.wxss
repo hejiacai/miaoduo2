@@ -1,0 +1,7 @@
+
+.content{
+	color: #636363;
+	font-size: 24rpx;
+	padding: 42rpx 37rpx 0 33rpx;
+}
+

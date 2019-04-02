@@ -1,0 +1,111 @@
+
+.box{
+	overflow: hidden;
+}
+._button::after{ border: none;}
+._button[disabled][type=primary] {
+		background-color:#FFC000;
+}
+.phClass{
+	color: #A4A4A4;
+	font-size: 24rpx;
+}
+.active{
+	background: #8A8A8A!important;
+}
+.but{
+	width: 100%;
+	height: 91rpx;
+}
+.but ._button{
+	width: 664rpx;
+	height: 100%;
+	line-height: 91rpx;
+	background: #FFC000;
+	text-align: center;
+	font-size: 38rpx;
+	color: #FFFFFF;
+	border-radius: 46rpx;
+	outline: none;
+}
+.sec_t{
+	margin-bottom: 30rpx;
+}
+.ty{
+	color: #8A8A8A;
+	font-size: 22rpx;
+}
+.yhxy{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-bottom: 34rpx;
+}
+.yhxy image{
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 8rpx;
+}
+.sec image{
+	width: 36rpx;
+	height: 54rpx;
+	margin-right: 33rpx;
+}
+.sec ._input{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.sec_t ._input{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.sec_t ._button{
+	width: 210rpx;
+	height: 58rpx;
+	background: #FFB916;
+	color: #FFFFFF;
+	font-size: 20rpx;
+	text-align: center;
+	line-height: 58rpx;
+	outline: none;
+	border-radius: 25rpx;
+}
+.sec_t image{
+	width: 60rpx;
+	height: 48rpx;
+	margin-right: 30rpx;
+}
+.sec,.sec_t{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;      
+	width: 100%;
+	height: 110rpx;
+	border-bottom: 1px solid #EEEEEE;
+}
+.box{
+	padding-top: 130rpx;
+	padding-left: 29rpx;
+	padding-right: 57rpx;
+}
+.title{
+	color: #5F5F5F;
+	font-size: 44rpx;
+	font-weight: bold;
+	margin-bottom: 20rpx;
+}
+

@@ -1,0 +1,2 @@
+<import src="./fankui.vue.wxml" />
+    <template is="1c946bfd" data="{{ ...$root['0'], $root }}"/>

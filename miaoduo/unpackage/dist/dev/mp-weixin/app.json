@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/banner/banner",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/daquan/daquan",
+    "pages/jingxuan/jingxuan",
+    "pages/my/my",
+    "pages/my/youlan",
+    "pages/my/xieyi",
+    "pages/my/fankui",
+    "pages/my/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#CFCECE",
+    "selectedColor": "#FFC000",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/home.png",
+        "selectedIconPath": "/static/shouye.png"
+      },
+      {
+        "pagePath": "pages/daquan/daquan",
+        "text": "贷款大全",
+        "iconPath": "/static/daikuan.png",
+        "selectedIconPath": "/static/daquan.png"
+      },
+      {
+        "pagePath": "pages/jingxuan/jingxuan",
+        "text": "贷款精选",
+        "iconPath": "/static/qianbao.png",
+        "selectedIconPath": "/static/jingxuan.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/static/my.png",
+        "selectedIconPath": "/static/wode.png"
+      }
+    ]
+  }
+}

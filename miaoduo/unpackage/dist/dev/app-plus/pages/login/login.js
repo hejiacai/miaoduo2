@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([".",[1],"box{ overflow: hidden; }\n.",[1],"_button::after{ border: none;}\n.",[1],"_button[disabled][type\x3dprimary] { background-color:#FFC000; }\n.",[1],"phClass{ color: #A4A4A4; font-size: ",[0,30],"; }\n.",[1],"active{ background: #8A8A8A!important; }\n.",[1],"but{ width: 100%; height: ",[0,91],"; }\n.",[1],"but .",[1],"_button{ width: ",[0,664],"; height: 100%; line-height: ",[0,91],"; background: #FFC000; text-align: center; font-size: ",[0,38],"; color: #FFFFFF; border-radius: ",[0,46],"; outline: none; }\n.",[1],"sec_t{ margin-bottom: ",[0,30],"; }\n.",[1],"ty{ color: #8A8A8A; font-size: ",[0,26],"; }\n.",[1],"yhxy{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; margin-bottom: ",[0,34],"; font-size: ",[0,30],"; }\n.",[1],"yhxy wx-image{ width: ",[0,40],"; height: ",[0,40],"; margin-right: ",[0,8],"; }\n.",[1],"sec wx-image{ width: ",[0,36],"; height: ",[0,54],"; margin-right: ",[0,33],"; }\n.",[1],"sec .",[1],"_input{ width: 100%; height: 100%; padding: 0; margin: 0; }\n.",[1],"sec_t .",[1],"_input{ width: 100%; height: 100%; padding: 0; margin: 0; }\n.",[1],"sec_t .",[1],"_button{ width: ",[0,210],"; height: ",[0,58],"; background: #FFB916; color: #FFFFFF; font-size: ",[0,24],"; text-align: center; line-height: ",[0,58],"; outline: none; padding: 0; border-radius: ",[0,25],"; }\n.",[1],"sec_t wx-image{ width: ",[0,60],"; height: ",[0,48],"; margin-right: ",[0,30],"; }\n.",[1],"sec,.",[1],"sec_t{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; width: 100%; height: ",[0,110],"; border-bottom: 1px solid #EEEEEE; }\n.",[1],"box{ padding-top: ",[0,130],"; padding-left: ",[0,29],"; padding-right: ",[0,57],"; }\n.",[1],"title{ color: #5F5F5F; font-size: ",[0,44],"; font-weight: bold; margin-bottom: ",[0,20],"; }\n",],"Some selectors are not allowed in component wxss, including tag name selectors, ID selectors, and attribute selectors.(./pages/login/login.wxss:6:10)",{path:"./pages/login/login.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/login/login.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

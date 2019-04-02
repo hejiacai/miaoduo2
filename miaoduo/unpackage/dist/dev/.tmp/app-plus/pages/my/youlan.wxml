@@ -1,0 +1,2 @@
+<import src="./youlan.vue.wxml" />
+    <template is="3dc8f8cb" data="{{ ...$root['0'], $root }}"/>

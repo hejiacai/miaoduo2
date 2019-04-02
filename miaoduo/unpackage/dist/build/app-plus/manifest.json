@@ -1,0 +1,118 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__9F04FA7",
+  "name": "秒多",
+  "version": {
+    "name": "v1.1.2",
+    "code": "100"
+  },
+  "description": "",
+  "launch_path": "__uniappservice.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "Statistic": {}
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app appservice",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "render": "always"
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "dark",
+      "background": "#F8F8F8"
+    },
+    "distribute": {
+      "icons": {
+        "ios": {
+          "appstore": "C:/Users/新中融/Desktop/3819529c481d508a6554cf231fc9f15.png"
+        },
+        "android": {
+          "mdpi": "C:/Users/新中融/Desktop/3819529c481d508a6554cf231fc9f15.png",
+          "ldpi": "C:/Users/新中融/Desktop/3819529c481d508a6554cf231fc9f15.png",
+          "hdpi": "C:/Users/新中融/Desktop/3819529c481d508a6554cf231fc9f15.png",
+          "xhdpi": "C:/Users/新中融/Desktop/3819529c481d508a6554cf231fc9f15.png",
+          "xxhdpi": "C:/Users/新中融/Desktop/3819529c481d508a6554cf231fc9f15.png",
+          "xxxhdpi": "C:/Users/新中融/Desktop/3819529c481d508a6554cf231fc9f15.png"
+        }
+      },
+      "google": {
+        "permissions": [
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.RECEIVE_USER_PRESENT\"/>"
+        ]
+      },
+      "apple": {},
+      "plugins": {
+        "statics": {
+          "umeng": {
+            "appkey_ios": "5c9aec043fc19593920011b2",
+            "channelid_ios": "881315",
+            "appkey_android": "5c9aec043fc19593920011b2",
+            "channelid_android": "881314"
+          }
+        },
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "softinput": {
+      "navBar": "auto",
+      "auxiliary": true,
+      "mode": "adjustResize|adjustPan"
+    },
+    "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#FFFFFF",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "uni-app": {
+      "compilerVersion": "1.7.0"
+    }
+  }
+}

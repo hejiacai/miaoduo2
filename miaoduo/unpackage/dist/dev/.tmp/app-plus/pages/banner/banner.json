@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "启动页",
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "bounce": "none",
+  "softinputNavBar": "none"
+}

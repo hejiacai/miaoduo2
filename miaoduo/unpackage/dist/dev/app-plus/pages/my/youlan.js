@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([".",[1],"content{ overflow: hidden; }\n.",[1],"_button::after{ border: none;}\n.",[1],"sec_right wx-image{ width: ",[0,36],"; height: ",[0,36],"; }\n.",[1],"qx{ color: #8A8A8A; font-size: ",[0,24],"; padding-left:",[0,10]," }\n.",[1],"qian{ color: #FAD00D; font-size: ",[0,36],"; margin-bottom: ",[0,10],"; }\n.",[1],"sec_content{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }\n.",[1],"sec_left_bot{ width: ",[0,84],"; height: ",[0,27],"; background: #FFD041; color: #FFFFFF; font-size: ",[0,18],"; text-align: center; line-height: ",[0,27],"; }\n.",[1],"sec_left_top{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; margin-bottom: ",[0,8],"; }\n.",[1],"sec_left_top wx-text{ color: #3B3B3B; font-size: ",[0,24],"; }\n.",[1],"sec_left_top wx-image{ width: ",[0,64],"; height: ",[0,64],"; margin-right: ",[0,10],"; }\n.",[1],"sec_left{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }\n.",[1],"sec{ width: 100%; height: ",[0,132],"; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-sizing: border-box; box-sizing: border-box; padding: ",[0,12]," ",[0,31]," 0 ",[0,22],"; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-shadow: ",[0,0]," ",[0,6]," ",[0,6]," #f0f0f0; box-shadow: ",[0,0]," ",[0,6]," ",[0,6]," #f0f0f0; margin-bottom: ",[0,5],"; }\n.",[1],"title{ width: 100%; height: ",[0,71],"; color: #6B6B6B; font-size: ",[0,24],"; padding-left: ",[0,32],"; line-height: ",[0,71],"; }\n",],undefined,{path:"./pages/my/youlan.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/youlan.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

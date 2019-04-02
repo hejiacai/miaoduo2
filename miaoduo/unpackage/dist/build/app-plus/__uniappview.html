@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"秒多","entryPagePath":"pages/banner/banner.html","page":{"pages/banner/banner.html":{"window":{"navigationBarTitleText":"启动页","navigationStyle":"custom","titleNView":false,"bounce":"none","softinputNavBar":"none"}},"pages/login/login.html":{"window":{"navigationBarTitleText":"登录页","navigationStyle":"custom","titleNView":false}},"pages/index/index.html":{"window":{"navigationBarTitleText":"首页","navigationStyle":"custom","titleNView":false}},"pages/daquan/daquan.html":{"window":{"navigationBarTitleText":"贷款大全"}},"pages/jingxuan/jingxuan.html":{"window":{"navigationBarTitleText":"贷款精选"}},"pages/my/my.html":{"window":{"navigationBarTitleText":"我的"}},"pages/my/youlan.html":{"window":{"navigationBarTitleText":"游览记录"}},"pages/my/xieyi.html":{"window":{"navigationBarTitleText":"服务协议"}},"pages/my/fankui.html":{"window":{"navigationBarTitleText":"反馈"}},"pages/my/about.html":{"window":{"navigationBarTitleText":"关于我们"}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#CFCECE","selectedColor":"#FFC000","backgroundColor":"#FFFFFF","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","text":"首页","iconPath":"/static/home.png","selectedIconPath":"/static/shouye.png"},{"pagePath":"pages/daquan/daquan.html","text":"贷款大全","iconPath":"/static/daikuan.png","selectedIconPath":"/static/daquan.png"},{"pagePath":"pages/jingxuan/jingxuan.html","text":"贷款精选","iconPath":"/static/qianbao.png","selectedIconPath":"/static/jingxuan.png"},{"pagePath":"pages/my/my.html","text":"我的","iconPath":"/static/my.png","selectedIconPath":"/static/wode.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/banner/banner","pages/login/login","pages/index/index","pages/daquan/daquan","pages/jingxuan/jingxuan","pages/my/my","pages/my/youlan","pages/my/xieyi","pages/my/fankui","pages/my/about"],"subPackages":[],"usingComponents":{},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false}}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

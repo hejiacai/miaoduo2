@@ -1,0 +1,2 @@
+<import src="./daquan.vue.wxml" />
+    <template is="c82f1ac0" data="{{ ...$root['0'], $root }}"/>

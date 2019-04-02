@@ -1,0 +1,114 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/banner/banner",
+			"style": {
+				"navigationBarTitleText": "启动页",
+				"navigationStyle":"custom",
+				"app-plus": {
+				    "titleNView": false ,//禁用原生导航栏
+					"bounce":"none",
+					"softinputNavBar":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录页",
+				"navigationStyle":"custom",
+				"app-plus": {
+				    "titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle":"custom",
+				"app-plus": {
+		            "titleNView": false ,//禁用原生导航栏
+					"enablePullDownRefresh": true
+		        }
+			} 
+		},
+		{
+			"path": "pages/daquan/daquan",
+			"style": {
+				"navigationBarTitleText": "贷款大全",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/jingxuan/jingxuan",
+			"style": {
+				"navigationBarTitleText": "贷款精选"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/my/youlan",
+			"style": {
+				"navigationBarTitleText": "游览记录"
+			}
+		},
+		{
+			"path": "pages/my/xieyi",
+			"style": {
+				"navigationBarTitleText": "服务协议"
+			}
+		},
+		{
+			"path": "pages/my/fankui",
+			"style": {
+				"navigationBarTitleText": "反馈"
+			}
+		},
+		{
+			"path": "pages/my/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		}
+	],
+	"tabBar" : {
+	    "color" : "#CFCECE",
+	    "selectedColor" : "#FFC000",
+	    "backgroundColor" : "#FFFFFF",
+	    "list" : [
+	        {
+	            "pagePath" : "pages/index/index",
+	            "text" : "首页",
+	            "iconPath" : "/static/home.png",
+	            "selectedIconPath" : "/static/shouye.png"
+	        },{
+				"pagePath":"pages/daquan/daquan",
+				"text":"贷款大全",
+				"iconPath":"/static/daikuan.png",
+				"selectedIconPath":"/static/daquan.png"
+			},{
+				"pagePath":"pages/jingxuan/jingxuan",
+				"text":"贷款精选",
+				"iconPath":"/static/qianbao.png",
+				"selectedIconPath":"/static/jingxuan.png"
+			},{
+				"pagePath":"pages/my/my",
+				"text":"我的",
+				"iconPath":"/static/my.png",
+				"selectedIconPath":"/static/wode.png"
+			}
+	    ]
+	},	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
